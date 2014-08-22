@@ -3,24 +3,22 @@
 
 mkdir ~/.npmprefix
 npm config set prefix ~/.npmprefix
+
+# Mac
 echo “export PATH=`npm config get prefix`/bin:$PATH” >> ~/.bash_profile
 source ~/. bash_profile
 
-Mac/Linux
+# Linux
+echo “export PATH=`npm config get prefix`/bin:$PATH” >> ~/.bashrc
+source ~/. bashrc
+
+# Mac/Linux
 curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash
 nvm install v0.10
 
-Windows
+# Windows
 # With node installed
-> npm install -g n
-> n stable
+npm install -g n
+n stable
 
-// Email your github username to dude@noderiety.com
-
-Metaprogramming is the writing of computer programs that write or manipulate other programs (or themselves) as their data, or that do part of the work at compile time that would otherwise be done at runtime.
-
-A function which serves as a getter for the property, or undefined if there is no getter. The function return will be used as the value of property.
-Defaults to undefined.
-set
-A function which serves as a setter for the property, or undefined if there is no setter. The function will receive as only argument the new value being assigned to the property.
-Defaults to undefined.
+// Request to join github.com/noderiety

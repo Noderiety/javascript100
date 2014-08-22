@@ -9,13 +9,13 @@ On freenode.net \#noderietybootcamp
 ##Schedule
 
 * 09:00: [Execution](http://nodejs.org/) [environments](https://developers.google.com/chrome-developer-tools/) & [Overview](https://github.com/Noderiety/javascript100/)
-* 09:15: [Basics & Primitives](http://www.slideshare.net/atcrabtree/linkedin-javascript-100)
-* 10:30: Object.create
-* 11:00: this
+* 09:15: Basics & Primitives
+* 1:00p: Functions, Functions, Functions
 * 11:30: [Workshop: Lololdash](http://nodeschool.io/#lololodash) 
 * 12:00: Lunch
-* 1:00p: [Functions, Functions, Functions](http://www.slideshare.net/atcrabtree/functions-30500294)
-* 2:00p: [Prototypal Inheritance](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
+* 10:30: Object.create
+* 11:00: this
+* 2:00p: Prototypal Inheritance
 * 3:00p: Break
 * 3:15p: Logging, Errors
 * 3:45p: ES6: ["strict mode" & block scoping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
