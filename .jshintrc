@@ -8,7 +8,6 @@
   "evil": true,
   "curly": false,
   "eqnull": true,
-  "es5": true,
   "esnext": true,
   "expr": true,
   "laxbreak": true,
