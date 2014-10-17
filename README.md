@@ -8,12 +8,14 @@
 
 ##Schedule
 
-* 05:30: Overview & Execution Environments: [node.js](http://nodejs.org/), [Google Chrome Developer Tools](https://developers.google.com/chrome-developer-tools/)
-* 05:45: Basics & Primitives
-* 06:15: Functions, Functions, Functions
-* 07:15: Prototypal Inheritance & Object.create
-* 08:15: Logging, Errors
-* 08:45: ES6: ["strict mode" & block scoping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
+* 5:30p: Overview & Execution Environments: [node.js](http://nodejs.org/), [Google Chrome Developer Tools](https://developers.google.com/chrome-developer-tools/)
+* 5:45p: Basics & Primitives
+* 6:15p: Functions, Functions, Functions* 
+* 7:15p: this
+* 7:30p: Object.create
+* 8:00p: Prototypal Inheritance
+* 8:50p: Logging, Errors
+* 9:00p: [ES6](https://github.com/google/traceur-compiler/wiki/LanguageFeatures) & ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
 * 09:30: Workshops:
   * [Javascripting (Language introduction)](https://github.com/sethvincent/javascripting)
   * [Functional JavaScript](https://github.com/timoxley/functional-javascript-workshop)
@@ -40,21 +42,58 @@
 Install [nvm](https://github.com/creationix/nvm):
 
 ```
-$ curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
+# Mac / Linux
+curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
+
+# Windows
+npm install -g n
 ```
 
 Install latest:
 
 ```
-$ nvm install v0.11 # Current version is >= 0.11.14
+# Mac / Linux
+nvm install v0.11 # Current version is >= 0.11.14
+
+# Windows
+n latest
 ```
 
 Or, install stable:
 
 ```
-$ nvm install v0.10 # Current version is >= 0.10.32
+# Mac / Linux
+nvm install v0.10 # Current version is >= 0.10.32
+
+# Windows
+n stable
 ```
 
+Set npm install directory:
+
+```
+# Mac / Linux
+mkdir ~/.npmprefix
+npm config set prefix ~/.npmprefix
+
+# Windows
+# Necessary?
+```
+
+and add to PATH:
+
+```
+# Mac
+echo “export PATH=`npm config get prefix`/bin:$PATH” >> ~/.bash_profile
+source ~/. bash_profile
+
+# Linux
+echo “export PATH=`npm config get prefix`/bin:$PATH” >> ~/.bashrc
+source ~/. bashrc
+
+# Windows
+# Necessary?
+```
 
 ##Workshops
 ####Assigned workshops:
