@@ -4,10 +4,24 @@
 [https://github.com/Noderiety/javascript100/](https://github.com/Noderiety/javascript100/)
 
 ##IRC
-On freenode.net \#noderietybootcamp
+\#noderiety on freenode.net
 
 ##Schedule
 
+* 05:30: Overview & Execution Environments: [node.js](http://nodejs.org/), [Google Chrome Developer Tools](https://developers.google.com/chrome-developer-tools/)
+* 05:45: Basics & Primitives
+* 06:15: Functions, Functions, Functions
+* 07:15: Prototypal Inheritance & Object.create
+* 08:15: Logging, Errors
+* 08:45: ES6: ["strict mode" & block scoping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
+* 09:30: Workshops:
+  * [Javascripting (Language introduction)](https://github.com/sethvincent/javascripting)
+  * [Functional JavaScript](https://github.com/timoxley/functional-javascript-workshop)
+  * [Count-to-6 (ES6 introduction)](https://github.com/domenic/count-to-6)
+  * [Planetproto (Prototypal inheritance introduction)](https://github.com/sporto/planetproto)
+  * [Lololodash](https://github.com/mdunisch/lololodash) 
+
+<!--- Full Day
 * 09:00: [Execution](http://nodejs.org/) [environments](https://developers.google.com/chrome-developer-tools/) & [Overview](https://github.com/Noderiety/javascript100/)
 * 09:15: Basics & Primitives
 * 1:00p: Functions, Functions, Functions
@@ -20,17 +34,47 @@ On freenode.net \#noderietybootcamp
 * 3:15p: Logging, Errors
 * 3:45p: ES6: ["strict mode" & block scoping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
 * 4:30p: [Workshop: Functional JavaScript](http://nodeschool.io/#functionaljs)
+-->
 
 ##Preparation
-Install [node.js](http://nodejs.org/)
 Install [nvm](https://github.com/creationix/nvm):
+
 ```
-$ curl https://raw.github.com/creationix/nvm/v0.3.0/install.sh | sh
+$ curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
 ```
 
 Install latest:
+
 ```
-$ nvm install v0.10 # Current version is >= 0.10.26
+$ nvm install v0.11 # Current version is >= 0.11.14
+```
+
+Or, install stable:
+
+```
+$ nvm install v0.10 # Current version is >= 0.10.32
+```
+
+
+##Workshops
+####Assigned workshops:
+1. [Javascripting (Language introduction)](https://github.com/sethvincent/javascripting)
+1. [Functional JavaScript](https://github.com/timoxley/functional-javascript-workshop)
+1. [Count-to-6 (ES6 introduction)](https://github.com/domenic/count-to-6)
+1. [Planetproto (Prototypal inheritance introduction)](https://github.com/sporto/planetproto)
+1. [Lololodash](https://github.com/mdunisch/lololodash)
+
+Workshops can be run in 1 of 2 ways:
+
+####Local executable:
+```
+$ npm install functional-javascript-workshop # UNNECESSARY, INCLUDED IN REPO
+$ ./npm_exec functional-javascript-workshop
+```
+####Global install and executable:
+```
+$ npm install functional-javascript-workshop -g
+$ functional-javascript-workshop
 ```
 
 ##Resources

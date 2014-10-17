@@ -4,13 +4,13 @@
 
 // var a = 'asdf';
 // var {a} = {a: 'asdf'};
-var fn = ({a=true, b}) => {
+var fn = ({a, b}) => {
   // if (!options.a) options.a = true
   console.log(a, b);
 }
 
 fn({
-  // a: 'hello',
+  a: 'hello',
   b: 'world'
 })
 // console.log(arr);
