@@ -10,12 +10,23 @@
     "javascripting": "~1.1.3",
     "lololodash": "~0.3.1",
     "node-es6": "~0.1.0",
+    "rc": "^0.5.1",
     "trycatch": "~1.4.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-filelog": "^0.2.0",
+    "gulp-insert": "^0.4.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.2.4",
+    "gulp-traceur": "^0.13.0",
+    "traceur": "0.0.61",
+    "traceur-source-maps": "^1.0.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node-es6 index.js"
+    "start": "node-es6 index.js",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
