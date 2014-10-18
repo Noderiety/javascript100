@@ -13,7 +13,7 @@
 * 6:15p: Functions, Functions, Functions* 
 * 7:15p: this
 * 7:30p: Object.create
-* 8:00p: Prototypal Inheritance
+* 8:00p: [Prototypal Inheritance](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
 * 8:50p: Logging, Errors
 * 9:00p: [ES6](https://github.com/google/traceur-compiler/wiki/LanguageFeatures) & ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
 * 09:30: Workshops:
