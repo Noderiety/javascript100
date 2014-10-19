@@ -84,12 +84,12 @@ and add to PATH:
 
 ```
 # Mac
-echo “export PATH=`npm config get prefix`/bin:$PATH” >> ~/.bash_profile
-source ~/. bash_profile
+echo 'export PATH=`npm config get prefix`/bin:$PATH' >> ~/.bash_profile
+source ~/.bash_profile
 
 # Linux
-echo “export PATH=`npm config get prefix`/bin:$PATH” >> ~/.bashrc
-source ~/. bashrc
+echo 'export PATH=`npm config get prefix`/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
 
 # Windows
 # Necessary?
