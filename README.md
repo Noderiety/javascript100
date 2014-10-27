@@ -37,9 +37,9 @@
   * [Count-to-6 (ES6 introduction)](https://github.com/domenic/count-to-6)
 * 2:30p: this
 * 2:45p: Object.create
-* 3:15p: Break
-* 3:30p: [Prototypal Inheritance](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
-* 4:30p: Workshops:
+* 3:00p: Break
+* 3:15p: [Prototypal Inheritance](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
+* 4:00p: Workshops:
   * [Functional JavaScript](https://github.com/timoxley/functional-javascript-workshop)
   * [Planetproto (Prototypal inheritance introduction)](https://github.com/sporto/planetproto)
   * [Lololodash](https://github.com/mdunisch/lololodash) 
