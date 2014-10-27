@@ -1,5 +1,8 @@
+var expect = require('chai').expect;
+
 class Character {
   constructor(x, y) {
+    console.log('Character ctor')
     this.x = x;
     this.y = y;
   }
@@ -11,9 +14,12 @@ class Character {
 
 class Monster extends Character {
   constructor(x, y, name) {
+    console.log('Monster ctor')
     super(x, y);
     this.name = name;
     this.health_ = 100;
+
+    console.log('result: ', this)
   }
 
   attack(character) {
@@ -22,17 +28,23 @@ class Monster extends Character {
     // super.attack();
   }
 
-  get isAlive() { return this.health_ > 0; }
-  get health() { return this.health_; }
+  get isAlive() {
+    console.log('isAlive getter')
+    return this.health_ > 0;
+  }
+  get health() {
+    console.log('health getter')
+    return this.health_;
+  }
   set health(value) {
+    console.log('health setter')
     if (value < 0) throw new Error('Health must be non-negative.');
     this.health_ = value;
   }
 }
 
-var myMonster = new Monster(5,1, 'arrrg');
+var myMonster = Monster(5,1, 'arrrg');
 
-var expect = require('chai').expect;
 expect(myMonster.health).to.be.eql(100);
 expect(myMonster.isAlive).to.be.eql(true);
 expect(myMonster.x).to.be.eql(5);
