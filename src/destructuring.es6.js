@@ -1,4 +1,5 @@
 var {a, b} = {
+	foo: 'bar',
 	a: true,
 	b: false
 }
