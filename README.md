@@ -8,9 +8,10 @@
 
 ##Schedule
 
+<!--- Full Day
 * 5:30p: Overview & Execution Environments: [node.js](http://nodejs.org/), [Google Chrome Developer Tools](https://developers.google.com/chrome-developer-tools/)
 * 5:45p: Basics & Primitives
-* 6:15p: Functions, Functions, Functions* 
+* 6:15p: Functions
 * 7:15p: this
 * 7:30p: Object.create
 * 8:00p: [Prototypal Inheritance](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
@@ -22,21 +23,27 @@
   * [Count-to-6 (ES6 introduction)](https://github.com/domenic/count-to-6)
   * [Planetproto (Prototypal inheritance introduction)](https://github.com/sporto/planetproto)
   * [Lololodash](https://github.com/mdunisch/lololodash) 
-
-<!--- Full Day
-* 09:00: [Execution](http://nodejs.org/) [environments](https://developers.google.com/chrome-developer-tools/) & [Overview](https://github.com/Noderiety/javascript100/)
-* 09:15: Basics & Primitives
-* 1:00p: Functions, Functions, Functions
-* 11:30: [Workshop: Lololdash](http://nodeschool.io/#lololodash) 
-* 12:00: Lunch
-* 10:30: Object.create
-* 11:00: this
-* 2:00p: Prototypal Inheritance
-* 3:00p: Break
-* 3:15p: Logging, Errors
-* 3:45p: ES6: ["strict mode" & block scoping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
-* 4:30p: [Workshop: Functional JavaScript](http://nodeschool.io/#functionaljs)
 -->
+
+* 09:30: Overview & Execution Environments: [node.js](http://nodejs.org/), [Google Chrome Developer Tools](https://developers.google.com/chrome-developer-tools/)
+* 09:45: Basics & Primitives
+* 10:30: Functions
+* 11:15: [ES6](https://github.com/google/traceur-compiler/wiki/LanguageFeatures) & ["strict mode"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode)
+* **11:45: Lunch**
+* 12:45: Class-based Inheritance
+* 1:15p: Logging, Errors
+* 1:30p: Workshops:
+  * [Javascripting (Language introduction)](https://github.com/sethvincent/javascripting)
+  * [Count-to-6 (ES6 introduction)](https://github.com/domenic/count-to-6)
+* 2:30p: this
+* 2:45p: Object.create
+* 3:15p: Break
+* 3:30p: [Prototypal Inheritance](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
+* 4:30p: Workshops:
+  * [Functional JavaScript](https://github.com/timoxley/functional-javascript-workshop)
+  * [Planetproto (Prototypal inheritance introduction)](https://github.com/sporto/planetproto)
+  * [Lololodash](https://github.com/mdunisch/lololodash) 
+
 
 ##Preparation
 Install [nvm](https://github.com/creationix/nvm):
