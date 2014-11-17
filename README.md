@@ -51,6 +51,7 @@ Install [nvm](https://github.com/creationix/nvm):
 ```
 # Mac / Linux
 curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
+echo 'source ~/.nvm/nvm.sh' >> ~/.bash_profile
 source ~/.bashrc
 
 # Windows
