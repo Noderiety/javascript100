@@ -49,9 +49,12 @@
 Install [nvm](https://github.com/creationix/nvm):
 
 ```
-# Mac / Linux
+# Mac
 curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
-echo 'source ~/.nvm/nvm.sh' >> ~/.bash_profile
+source ~/.bash_profile
+
+# Linux
+curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
 source ~/.bashrc
 
 # Windows
@@ -63,6 +66,7 @@ Install latest:
 ```
 # Mac / Linux
 nvm install v0.11 # Current version is >= 0.11.14
+nvm alias default v0.11
 
 # Windows
 n latest
@@ -73,6 +77,7 @@ Or, install stable:
 ```
 # Mac / Linux
 nvm install v0.10 # Current version is >= 0.10.32
+nvm alias default v0.10
 
 # Windows
 n stable
