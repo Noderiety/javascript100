@@ -66,8 +66,7 @@ Install latest:
 
 ```
 # Mac / Linux
-nvm install v0.11 # Current version is >= 0.11.14
-nvm alias default v0.11
+nvm alias default v0.11 # Current version is >= 0.11.14
 
 # Windows
 n latest
