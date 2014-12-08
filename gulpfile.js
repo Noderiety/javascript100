@@ -9,13 +9,14 @@ var gulp = require('gulp')
   , _ = require('lodash')
   , tracuerConfig = _.omit(rc('traceur'), ['config', '_'])
   , srcDir = 'src'
-  , srcFiles = srcDir + '/*.es6.js'
-  , destDir = 'dist'
+  , srcFiles = srcDir + '/*.js'
+  , srcEs6Files = srcDir + '/*.es6.js'
+  , libDir = 'lib'
   , traceurStackTraceMapInjection = 'require(\'traceur-source-maps\').install(require(\'traceur\'));'
 
 gulp.task('traceur', function () {
   return gulp.src(srcFiles)
-		.pipe(changed(destDir))
+		.pipe(changed(libDir))
 	  .pipe(insert.prepend(traceurStackTraceMapInjection))
     .pipe(sourcemaps.init())
     .pipe(traceur(tracuerConfig))
@@ -24,7 +25,7 @@ gulp.task('traceur', function () {
 	  	path.basename = path.basename.split('.').slice(0,-1).join('.')
 	  }))
 	  .pipe(sourcemaps.write())
-    .pipe(gulp.dest(destDir));
+    .pipe(gulp.dest(libDir));
 })
 
 gulp.task('lint', function() {

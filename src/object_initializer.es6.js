@@ -3,7 +3,8 @@ function foo() {
   let y = 10;
 
   let obj = {x, y};
-  return 
+  // let obj = {x: x, y: y}
+  return obj
 }
 
 let obj = foo()

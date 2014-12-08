@@ -1,3 +1,5 @@
 let name = 'world';
-let greeting = `hello ${(() => name + name)()}`;
-console.log(greeting)
+let greeting1 = `hello ${name}`;
+let greeting2 = `hello ${(() => name + name)()}`;
+console.log(greeting1)
+console.log(greeting2)

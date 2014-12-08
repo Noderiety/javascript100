@@ -10,5 +10,5 @@ function Character2(x, y) {
 	this.y = y;
 }
 
-Character(1,2)
-Character2(1,2)
+console.log(new Character(1,2))
+console.log(new Character2(1,2))

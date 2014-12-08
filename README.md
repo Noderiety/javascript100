@@ -130,6 +130,17 @@ $ npm install functional-javascript-workshop -g
 $ functional-javascript-workshop
 ```
 
+###ES6 / Traceur
+```
+$ npm install -g node-es6 traceur-cli gulp
+$ node-es6 foo.es6.js # Execute uncompiled code
+$ traceur-cli # Start an ES6 REPL
+javascript100/$ gulp watch #start traceur daemon
+```
+
+
+
+
 ##Resources
 [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
 

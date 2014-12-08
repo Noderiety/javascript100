@@ -4,11 +4,11 @@ var object = {
     return this.value;
   }
 };
-var object = {
+var object2 = {
   value: 42,
-  toString:function toString(){
+  toString: function toString(){
     return this.value;
   }
 };
 
-object.value
+console.log(String(object), String(object2))

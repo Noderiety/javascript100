@@ -1,4 +1,4 @@
-var expect = require('chai').expect;
+// var expect = require('chai').expect;
 
 class Character {
   constructor(x, y) {
@@ -42,15 +42,15 @@ class Monster extends Character {
     this.health_ = value;
   }
 }
+module.exports = {Monster, Character}
+// var myMonster = Monster(5,1, 'arrrg');
 
-var myMonster = Monster(5,1, 'arrrg');
+// expect(myMonster.health).to.be.eql(100);
+// expect(myMonster.isAlive).to.be.eql(true);
+// expect(myMonster.x).to.be.eql(5);
+// myMonster.health = 10;
+// expect(myMonster.health).to.be.eql(10);
+// expect(myMonster.name).to.be.eql('arrrg');
 
-expect(myMonster.health).to.be.eql(100);
-expect(myMonster.isAlive).to.be.eql(true);
-expect(myMonster.x).to.be.eql(5);
-myMonster.health = 10;
-expect(myMonster.health).to.be.eql(10);
-expect(myMonster.name).to.be.eql('arrrg');
-
-var myMonsterTwo = new Monster(6,2, 'samuel');
-myMonster.attack(myMonsterTwo)
+// var myMonsterTwo = new Monster(6,2, 'samuel');
+// myMonster.attack(myMonsterTwo)

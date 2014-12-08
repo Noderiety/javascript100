@@ -1,7 +1,12 @@
-function foo(...args) {
-	console.log(this, args)
+// rest
+function foo(first, ...args) {
+	console.log(first, args)
 }
 
 let args = [1,2,3]
 // foo.apply(null, args)
-foo(0, ...args)
+// spread
+foo(...args)
+// foo(1, 2, 3)
+foo({}, ...args, true)
+// foo({}, 1, 2, 3, true)
